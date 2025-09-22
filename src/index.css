@@ -2,5 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smooth font rendering */
-* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+/* Small helper for toasts */
+.toast-enter { opacity: 0; transform: translateY(-8px); }
+.toast-enter.toast-show { opacity: 1; transform: translateY(0); transition: all .2s ease-in-out; }

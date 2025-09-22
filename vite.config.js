@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Minimal config; Tailwind handled via postcss.
 export default defineConfig({
   plugins: [react()],
 })
