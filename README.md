@@ -12,7 +12,7 @@ This prototype implements the Bob user journey with synthetic data:
 
 ## Quick start
 ```bash
-npm i
+npm install
 npm run dev 
 ```
 
